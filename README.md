@@ -17,5 +17,5 @@ flux bootstrap github \
 --path=./clusters/my-cluster \
 --personal
 
-will cause an error if you do not have manually commit smth
+will cause an error if you do not have manually commit smth beforehand
 
