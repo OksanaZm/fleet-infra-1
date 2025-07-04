@@ -1,0 +1,16 @@
+image:
+  repository: nginxdemos/hello
+  tag: latest
+  pullPolicy: IfNotPresent
+
+app:
+  name: hello-app
+  labels:
+    app: hello
+    env: dev
+
+service:
+  type: NodePort
+  port: 82
+  targetPort: 80
+  nodePort: 30080
