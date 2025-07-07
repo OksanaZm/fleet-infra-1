@@ -1,0 +1,4 @@
+apiVersion: v2
+name: badimage-chart
+version: 0.1.0
+description: Deploys a pod that fails to pull image (to test ImagePullBackOff alerts)

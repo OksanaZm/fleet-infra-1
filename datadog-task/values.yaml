@@ -1,0 +1,9 @@
+image:
+  repository: nonexisting/badimage
+  tag: latest
+  pullPolicy: Always
+
+app:
+  name: badimage-app
+  labels:
+    app: badimage
